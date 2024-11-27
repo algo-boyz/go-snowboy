@@ -14,7 +14,7 @@ See https://godoc.org/github.com/brentnd/go-snowboy
 * SWIG (v 3.0.12 recommended)
 
 ### Go Packages
-* github.com/Kitt-AI/snowboy/swig/Go
+* github.com/seasalt-ai/snowboy/swig/Go
 
 ## Example
 
