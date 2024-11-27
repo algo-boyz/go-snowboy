@@ -2,8 +2,8 @@
 // listening for the hotword.
 //
 // HOW TO USE:
-// 	go run example/listen.go [path to snowboy resource file] [path to snowboy hotword file]
 //
+//	go run example/listen.go [path to snowboy resource file] [path to snowboy hotword file]
 package main
 
 import (
@@ -13,7 +13,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/brentnd/go-snowboy"
+	"github.com/algo-boyz/go-snowboy"
 	"github.com/gordonklaus/portaudio"
 )
 

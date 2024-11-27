@@ -4,8 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/brentnd/go-snowboy"
-	"io/ioutil"
+	"github.com/algo-boyz/go-snowboy"
 )
 
 func main() {
@@ -28,5 +27,5 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	err = ioutil.WriteFile(t.Name+".pmdl", pmdl, 0644)
+	err = os.WriteFile(t.Name+".pmdl", pmdl, 0644)
 }

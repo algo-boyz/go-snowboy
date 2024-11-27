@@ -8,7 +8,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/Kitt-AI/snowboy/swig/Go"
+	snowboydetect "github.com/seasalt-ai/snowboy/swig/Go"
 )
 
 type snowboyResult int
@@ -251,9 +251,9 @@ func (f handlerFunc) Detected(keyword string) {
 
 // A Hotword represents a model filename and sensitivity for a snowboy detectable word
 //
-// Model is the filename for the .umdl file
+// # Model is the filename for the .umdl file
 //
-// Sensitivity is the sensitivity of this specific hotword
+// # Sensitivity is the sensitivity of this specific hotword
 //
 // Name is what will be used in calls to Handler.Detected(string)
 type Hotword struct {
